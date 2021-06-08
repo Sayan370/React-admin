@@ -4,17 +4,27 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/images/favicon.ico" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="%PUBLIC_URL%/assets/libs/c3/c3.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- App css -->
+    <link href="%PUBLIC_URL%/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+    <link href="%PUBLIC_URL%/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="%PUBLIC_URL%/assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,7 +34,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Dashboard 1 | Adminox - Responsive Bootstrap 4 Admin Dashboard</title>
+ 
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +50,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+   
   </body>
+  <script src="%PUBLIC_URL%/assets/js/vendor.min.js"></script>
+
+  <!--C3 Chart-->
+  <script src="%PUBLIC_URL%/assets/libs/d3/d3.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/libs/c3/c3.min.js"></script>
+
+  <script src="%PUBLIC_URL%/assets/libs/echarts/echarts.min.js"></script>
+
+  <script src="%PUBLIC_URL%/assets/js/pages/dashboard.init.js"></script>
+
+  <!-- App js -->
+  <script src="%PUBLIC_URL%/assets/js/app.min.js"></script>
 </html>
