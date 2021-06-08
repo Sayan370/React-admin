@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-md-12">
-                                2017 - 2019 &copy; Adminox theme by <Link to="/">Coderthemes</Link>
+                               2021 &copy; React Admin by <Link to="/">Sayan</Link>
                             </div>
                         </div>
                     </div>
